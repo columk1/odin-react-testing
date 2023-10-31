@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  prop-types:
+    specifier: ^15.8.1
+    version: 15.8.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -37,6 +40,9 @@ devDependencies:
   eslint-plugin-react-refresh:
     specifier: ^0.4.3
     version: 0.4.3(eslint@8.52.0)
+  eslint-plugin-vitest-globals:
+    specifier: ^1.4.0
+    version: 1.4.0
   jsdom:
     specifier: ^22.1.0
     version: 22.1.0
@@ -1465,6 +1471,10 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
+  /eslint-plugin-vitest-globals@1.4.0:
+    resolution: {integrity: sha512-WE+YlK9X9s4vf5EaYRU0Scw7WItDZStm+PapFSYlg2ABNtaQ4zIG7wEqpoUB3SlfM+SgkhgmzR0TeJOO5k3/Nw==}
+    dev: true
+
   /eslint-scope@7.2.2:
     resolution: {integrity: sha512-dOt21O7lTMhDM+X9mB4GX+DZrZtCUJPL/wlcTqxyrx5IvO0IYtILdtrQGQp+8n5S0gwSVmOf9NQrjMOgfQZlIg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -2240,7 +2250,6 @@ packages:
   /object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /object-inspect@1.13.1:
     resolution: {integrity: sha512-5qoj1RUiKOMsCCNLV1CBiPYE10sziTsnmNxkAI/rZhiD63CF7IqdFGC/XzjWjpSgLf0LxXX3bDFIh0E18f6UhQ==}
@@ -2459,7 +2468,6 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
-    dev: true
 
   /proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
@@ -2493,7 +2501,6 @@ packages:
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: true
 
   /react-is@17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
